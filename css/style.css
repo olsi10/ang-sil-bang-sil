@@ -1,37 +1,126 @@
+
 @font-face {
-    font-family: 'IM_Hyemin-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'IM_Hyemin-Bold';
+    font-family: 'LeeSeoyun';
+}
+
+p, b{
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .container {
     width: 100%;
+    height: 4000px;
+    background: #134E5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fff, #fff, #fff, #fff, #eaf3ec, #cfe7d5, #8ac599);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fff, #fff, #fff, #fff, #eaf3ec, #cfe7d5, #8ac599); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.mov {
+    width: 100%;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+.mov video {
+    display: block;
+    width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.banner {
-    width: 90%;
-    height: 500px;
-    display: flex;
-    margin : 80px auto;
-    background-color: rgb(233, 233, 233);
+.start-wrapper {
+    width: 100%;
+    height: 900px;
+    margin-top: 220px;
+    padding: 80px 0;
+    background-color: #f2f1ea;
 }
 
-.store-img {
-    width: 50%;
+.start {
+    width: 100%;
+    max-width: 1080px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
-.store-img img {
+.start-1 {
+    width: 40%;
+    float: left;
+}
+
+.babyimg {
     width: 100%;
 }
 
-.store-title {
+.babyimg img {
+    display: block;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.start-1 p:nth-child(2) {
+    font-size: 26px;
+    word-break: keep-all;
+    line-height: 40px;
+    font-weight: 600;
+    color: #323232;
+    margin: 0 auto 30px;
+}
+
+.start-1 p:nth-child(3) {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #242424;
+}
+
+
+.start-2 {
+    width: 40%;
+    float: right;
+    margin: 180px 0 0 0;
+}
+
+.myimg img {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.start-2 p:nth-child(2) {
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #6e3608;
+    margin: 0 auto 30px;
+}
+
+.start-2 p:nth-child(3) {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #242424;
+}
+
+.banner {
     width: 50%;
+    height: 200px;
+    margin-top: 700px;
 }
