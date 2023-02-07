@@ -32,7 +32,7 @@
 }
 
 .headerWrap.change {
-    height: 72px;
+    height: 50px;
     color: black;
     transition:all 0.3s ease;
 }

@@ -1,4 +1,5 @@
 let header = document.querySelector(".headerWrap");
+let logo = document.querySelector(".logo");
 let headerHeight = header.offsetHeight;
 let currentWidth = header.offsetWidth;
 
@@ -18,8 +19,10 @@ window.onscroll = function () {
 
     if(windowTop >= 500) {
         header.classList.add("change");
+        logo.style.fontSize = "28px";
     }
     else {
         header.classList.remove("change");
+        logo.style.fontSize = "35px";
     }
 };
