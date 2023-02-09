@@ -7,7 +7,7 @@
 
 ::-webkit-scrollbar {
     display: none;
-    }
+}
 
 * {
     margin: 0;
@@ -21,11 +21,7 @@ p, b{
 
 .container {
     width: 100%;
-    height: 2500px;
-    /* background: #134E5E;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to bottom, #fff, #fff, #fff, #fff, #eaf3ec, #cfe7d5, #8ac599);  Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to bottom, #fff, #fff, #fff, #fff, #eaf3ec, #cfe7d5, #8ac599); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    height: 4000px;
 }
 
 .mov {
@@ -49,7 +45,7 @@ p, b{
     width: 100%;
     height: 900px;
     margin-top: 220px;
-    padding: 80px 0;
+    padding: 160px 0;
 }
 
 .start {
@@ -120,15 +116,23 @@ p, b{
     color: #242424;
 }
 
+.product-text {
+    margin-top: 250px;
+    width: 950px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 280px;
+    background-color: #e0e0e0;
+}
+
 .product-wrapper {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
     max-width: 1080px;
     position: relative;
     margin: 100px auto;
-    padding: 0 15px;
+    padding-left: 50px;
     box-sizing: border-box;
     gap: 20px;
 }
@@ -138,11 +142,36 @@ p, b{
     border: 0.5px solid gray;
     font-size: 30px;
     text-align: center;
-    width: 90%;
-    height: 70%;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
+    object-fit: cover;
 }
 
-.grid-item img {
-    object-fit: cover;
+.map-wrapper {
+    width: 100%;
+    height: 900px;
+    margin-top: 220px;
+    padding: 100px 0;
+}
+
+.map-t {
+    width: 900px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.map {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.map-add {
+    width: 900px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0 auto;
 }
