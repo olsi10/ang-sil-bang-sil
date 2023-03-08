@@ -19,6 +19,15 @@ p, b{
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
 .container {
     width: 100%;
     height: 4000px;
@@ -117,8 +126,9 @@ p, b{
 }
 
 .product-text {
-    margin-top: 250px;
+    margin-top: 110px;
     width: 950px;
+    padding: 10px 0 10px 2px;
     font-size: 20px;
     font-weight: 700;
     margin-left: 280px;
@@ -148,15 +158,25 @@ p, b{
     object-fit: cover;
 }
 
+.grid-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item img:hover {
+    filter: brightness(50%);
+    transition: all ease 0.5s;
+}
+
 .map-wrapper {
     width: 100%;
-    height: 900px;
+    height: 554px;
     margin-top: 220px;
     padding: 100px 0;
 }
 
 .map-t {
-    width: 900px;
+    width: 952px;
     font-size: 20px;
     font-weight: 500;
     padding: 10px;
@@ -164,7 +184,7 @@ p, b{
 }
 
 .map {
-    width: 900px;
+    width: 952px;
     margin: 0 auto;
 }
 
