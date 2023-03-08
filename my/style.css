@@ -12,13 +12,13 @@
     font-family: 'LeeSeoyun';
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 a {
     color: #fff;
     text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 a:hover{
@@ -80,37 +80,54 @@ a:hover{
     padding-bottom: 1px;
 }
 
-/* 회원가입 */
-.join {
-    width: 500px;
+.profile {
+    display: flex;
+    justify-content: flex-start;
     margin: 200px auto;
+    width: 700px;
+    gap: 20px;
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 15px;
 }
 
-.join h2 {
-    text-align: center;
+.store {
+    display: flex;
+    gap: 10px;
 }
 
-.idd, .pass, .chkpass, .name {
-    display: block;
-    margin: 20px auto;
-    height: 50px;
-    padding: 0 30px;
-    background: rgba(197,197,199,.2);
-    color: #fff;
-    border-radius: 25px;
-    border: 0;
-    color: #000;
-    font-size: 18px;
-    font-weight: 400;
+.selfie img {
+    width: 300px;
+    height: 300px;
 }
 
-.member_login_order_btn {
-    background: rgba(255,255,255,.8);
-    color: #6d6e71;
-    border: 0;
-    margin: 0 230px;
+.store img {
+    width: 20px;
+    height: 20px;
 }
 
-.member_login_order_btn:hover {
+.info {
+    width: 200px;
+    margin-top: 50px;
+}
+
+.info p {
+    margin-bottom: 15px;
+}
+
+.history {
+    margin-top: 55px;
+}
+
+.history ul {
+    display: flex;
+    width: 350px;
+    margin-top: 10px;
+    list-style: none;
+    gap: 6px;
+    font-size: 15px;
+}
+
+.history ul li:hover {
     cursor: pointer;
 }
