@@ -4,6 +4,8 @@
     font-weight: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +32,7 @@ a:hover{
     left: 0;
     z-index: 100;
     padding-bottom: 15px;
-    background: transparent;
+    background: rgba(0,0,0,0.15);
     color: #fff;
     transition:all 0.3s ease;
 }
@@ -72,4 +74,39 @@ a:hover{
 .nav-item {
     border-bottom: 1px solid gray;
     padding-bottom: 1px;
+}
+
+/* 회원가입 */
+.join {
+    width: 500px;
+    margin: 200px auto;
+}
+
+.join h2 {
+    text-align: center;
+}
+
+.idd, .pass, .chkpass, .name {
+    display: block;
+    margin: 20px auto;
+    height: 50px;
+    padding: 0 30px;
+    background: rgba(197,197,199,.2);
+    color: #fff;
+    border-radius: 25px;
+    border: 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.member_login_order_btn {
+    background: rgba(255,255,255,.8);
+    color: #6d6e71;
+    border: 0;
+    margin: 0 230px;
+}
+
+.member_login_order_btn:hover {
+    cursor: pointer;
 }

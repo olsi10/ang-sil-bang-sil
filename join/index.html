@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>앙실방실</title>
+</head>
+<body>
+    <!-- 헤더 -->
+    <div class="headerWrap">
+        <div class="icon"></div>
+        <div class="logo"><a href="../index.html">앙실방실</a></div>
+        <div class="nav">
+            <li class="nav-item"><a href="#">회원가입</a></li>
+            <li class="nav-item"><a href="../my/index.html">마이 페이지</a></li>
+            <li class="nav-item"><a href="../commu/index.html">커뮤니티</a></li>
+        </div>
+    </div>
+
+    <!-- 로그인 창 -->
+    <div class="join">
+        <h2>간편 회원가입</h2>
+        <div class="input-info">
+            <input type="text" class="name" id="inputName"  value="" placeholder="닉네임">
+            <input type="text" class="idd" value="" placeholder="아이디">
+            <input type="password" class="pass" value="" placeholder="비밀번호">
+            <input type="password" class="chkpass" value="" placeholder="비밀번호 확인">
+        </div>
+        <button onClick="welcome()" type="submit" class="member_login_order_btn">LOGIN</button>
+    </div>
+
+    
+    
+    <script src="../js/nav.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
